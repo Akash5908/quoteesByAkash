@@ -26,12 +26,16 @@ class App extends React.Component {
         return (
 
             <div className="app">
+                <footer> <span class="text text-info-emphasis text-primary text-opacity-75" >Made by Akash.</span></footer>
+
                 <div className="card">
                     <h1 className="heading">{advice}</h1>
                     <button className="button" onClick={this.fetchAdvice}>
                         <span>GIVE ME ADVICE!</span>
                     </button>
                 </div>
+
+
             </div>
 
 
